@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+
+.tipContainer{
+    height: 50vh;
+    width: 60vh;
+    background-color: #DDDDDD;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 5vmin;
+    color: black;
+}
+
+.tipContainer:hover{
+    box-shadow: 0rem 0rem 1rem 0.3rem #CB2957;
+}
+
+#Para1 {
+    font-size: 1.5rem;
+}
+
+#bill-Amount {
+    height: 4vmin;
+    width:55vmin;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+
+}
+#tip-Percentage {
+    height: 4vmin;
+    width:55vmin;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem; 
+}
+#calculate-button{
+    height: 9vmin;
+    width: 55vmin;
+    border: none;
+    background-color: #CB2957;
+    color: black;
+    font-size: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#calculate-button:hover {
+    background-color: #9c3a56;
+}
+
+#total {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#calculate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+#result{
+    height: 30px;
+    width: 60px;
+    background-color: #e0c1c1;
+}
+
+.developer-name {
+    height: 100px;
+    width: 200px;
+    color: White;
+    margin-top: 275px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.developer-name:hover{
+    color: rgb(173, 166, 166);
+    opacity: 75%;
+}
